@@ -29,16 +29,32 @@ h2 {
   font-weight: bold;
   margin: 10px 0 40px 0;
 }
-a {
+.tour-names {
   text-decoration: var(--link-decoration);
   color: var(--link-color);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+footer {
+  background: black;
+  padding: 20px 0;
+}
+.icons {
+  text-align: center;
+  letter-spacing: 10px;
+}
+.icons a {
+  color: white;
+}
+.copyright {
+  text-align: right;
+  color: white;
 }
 a:hover {
   text-decoration: underline;
   color: var(--link-color);
-}
-.navbar-nav {
-  margin-left: auto;
 }
 @media (max-width: 600px) {
   .brand-name {
