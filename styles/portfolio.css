@@ -72,3 +72,11 @@ a:hover {
     margin-bottom: 25px;
   }
 }
+@media (max-width: 1000px) {
+  footer {
+    padding: 10px 0;
+  }
+  .icons {
+    text-align: right;
+  }
+}
