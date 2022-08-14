@@ -37,6 +37,9 @@ a:hover {
   text-decoration: underline;
   color: var(--link-color);
 }
+.navbar-nav {
+  margin-left: auto;
+}
 @media (max-width: 600px) {
   .brand-name {
     padding: 10px 3px;
