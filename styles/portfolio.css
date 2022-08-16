@@ -7,8 +7,21 @@
 body {
   font-family: "Nunito", sans-serif;
 }
-.brand-name {
+
+h1 {
+  font-size: 72px;
   text-align: center;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0 40px 0;
+}
+h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.brand-name {
   background: url("../images/back.jpg") no-repeat;
   background-size: 100% 100%;
   color: var(--primary-color);
@@ -17,19 +30,22 @@ body {
   text-shadow: var(--grey-shadow);
 }
 .brand-name h1 {
-  font-size: 72px;
   font-style: italic;
   font-weight: 900px;
 }
 .brand-name p {
   font-size: 24px;
-  font-style: bold;
-}
-h2 {
-  font-size: 28px;
   font-weight: bold;
-  margin: 10px 0 40px 0;
+  text-align: center;
 }
+.about-us {
+  color: var(--secondary-color);
+}
+.about-us h1 {
+  font-weight: 700;
+  margin-top: 40px;
+}
+
 .tour-names {
   text-decoration: var(--link-decoration);
   color: var(--secondary-color);
@@ -37,6 +53,9 @@ h2 {
 
 .navbar-nav {
   margin-left: auto;
+}
+.about-info {
+  margin: 50px 200px;
 }
 footer {
   background: black;
@@ -57,6 +76,13 @@ a:hover {
   text-decoration: underline;
   color: var(--secondary-color);
 }
+.about-contacts {
+  font-weight: bold;
+}
+.about-icons a {
+  letter-spacing: 15px;
+  color: var(--secondary-color);
+}
 @media (max-width: 600px) {
   .brand-name {
     padding: 10px 3px;
@@ -73,11 +99,22 @@ a:hover {
     margin-bottom: 25px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   footer {
     padding: 10px 0;
   }
   .icons {
     text-align: right;
+  }
+  .about-us h1 {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .about-info {
+    margin: 0;
+  }
+  .about-info h3 {
+    font-size: 34px;
+    margin-top: 15px;
   }
 }
