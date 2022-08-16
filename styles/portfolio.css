@@ -1,7 +1,8 @@
 :root {
   --grey-shadow: 2px 2px 4px rgb(154, 154, 152);
   --link-decoration: none;
-  --link-color: #272142;
+  --primary-color: white;
+  --secondary-color: #272142;
 }
 body {
   font-family: "Nunito", sans-serif;
@@ -10,7 +11,7 @@ body {
   text-align: center;
   background: url("../images/back.jpg") no-repeat;
   background-size: 100% 100%;
-  color: white;
+  color: var(--primary-color);
   padding-top: 43px;
   padding-bottom: 50px;
   text-shadow: var(--grey-shadow);
@@ -31,7 +32,7 @@ h2 {
 }
 .tour-names {
   text-decoration: var(--link-decoration);
-  color: var(--link-color);
+  color: var(--secondary-color);
 }
 
 .navbar-nav {
@@ -46,15 +47,15 @@ footer {
   letter-spacing: 10px;
 }
 .icons a {
-  color: white;
+  color: var(--primary-color);
 }
 .copyright {
   text-align: right;
-  color: white;
+  color: var(--primary-color);
 }
 a:hover {
   text-decoration: underline;
-  color: var(--link-color);
+  color: var(--secondary-color);
 }
 @media (max-width: 600px) {
   .brand-name {
