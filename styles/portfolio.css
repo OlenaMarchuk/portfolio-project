@@ -3,6 +3,7 @@
   --link-decoration: none;
   --primary-color: white;
   --secondary-color: #272142;
+  --third-color: #662eed;
 }
 body {
   font-family: "Nunito", sans-serif;
@@ -69,13 +70,26 @@ h3 {
 .favorite-trips h2 {
   text-align: center;
 }
-.favorite-trips a {
+.favorite-trips a,
+.contact-details a {
   color: var(--secondary-color);
   text-decoration: var(--link-decoration);
 }
 a:hover {
   text-decoration: underline;
   color: var(--secondary-color);
+}
+.contact-details {
+  line-height: 0.3;
+}
+.contact-details p {
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--third-color);
+  margin-bottom: 8px;
+}
+.contact-details h4 {
+  font-weight: 500;
 }
 
 footer {
