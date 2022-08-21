@@ -112,6 +112,9 @@ footer {
   text-align: right;
   color: var(--primary-color);
 }
+.copyright a {
+  color: var(--primary-color);
+}
 .icons a:hover {
   color: var(--secondary-color);
 }
