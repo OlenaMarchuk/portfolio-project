@@ -75,7 +75,12 @@ h3 {
   color: var(--secondary-color);
   text-decoration: var(--link-decoration);
 }
-a:hover {
+.contact-button {
+  text-decoration: var(--link-decoration);
+}
+.favorite-trips a:hover,
+.contact-details a:hover,
+.tour-names:hover {
   text-decoration: underline;
   color: var(--secondary-color);
 }
@@ -108,7 +113,6 @@ footer {
   color: var(--primary-color);
 }
 .icons a:hover {
-  text-decoration: underline;
   color: var(--secondary-color);
 }
 @media (max-width: 281px) {
