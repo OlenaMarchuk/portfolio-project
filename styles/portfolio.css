@@ -7,6 +7,9 @@
 }
 body {
   font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .navbar-nav {
   margin-left: auto;
@@ -75,14 +78,15 @@ h3 {
   color: var(--secondary-color);
   text-decoration: var(--link-decoration);
 }
-.contact-button {
-  text-decoration: var(--link-decoration);
-}
+
 .favorite-trips a:hover,
 .contact-details a:hover,
 .tour-names:hover {
   text-decoration: underline;
   color: var(--secondary-color);
+}
+.contact-button {
+  text-decoration: var(--link-decoration);
 }
 .contact-details {
   line-height: 0.3;
@@ -100,6 +104,7 @@ h3 {
 footer {
   background: black;
   padding: 20px 0;
+  margin-top: auto;
 }
 .icons {
   text-align: center;
